@@ -7,7 +7,7 @@
   <input type="text" name="desc" placeholder="Enter movie description"><br>
   <input type="text" name="year" placeholder="Enter year"><br>
   <input type="file" name="img"><br>
-  <input type="submit">
+  <input type="submit" href="{% url 'movieapp:index' %}">
 
 </form>
 {% endblock %}
